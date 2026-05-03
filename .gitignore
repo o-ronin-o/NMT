@@ -1,0 +1,267 @@
+# ============================================
+# Python / PyTorch NMT Project .gitignore
+# ============================================
+
+# ----------------------------
+# Byte-compiled / optimized files
+# ----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.manifest
+*.spec
+
+# ----------------------------
+# Virtual environments
+# ----------------------------
+venv/
+env/
+ENV/
+.venv/
+.virtualenv/
+pyenv/
+.conda/
+envs/
+.venv/
+
+# ----------------------------
+# IDE / Editor files
+# ----------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+. DS_Store
+Thumbs.db
+*.sublime-*
+.project
+.pydevproject
+.settings/
+*.iml
+
+# ----------------------------
+# Jupyter Notebook
+# ----------------------------
+.ipynb_checkpoints/
+*.ipynb
+*.pynb
+*/.ipynb_checkpoints/
+
+# ----------------------------
+# Model checkpoints and outputs
+# ----------------------------
+*.pt
+*.pth
+*.pkl
+*.bin
+*.h5
+*.hdf5
+*.ckpt
+*.ckpt.*
+*.model
+*.model-*
+*.params
+*.npy
+*.npz
+
+# ----------------------------
+# Training checkpoints (your specific files)
+# ----------------------------
+checkpoints/
+checkpoints_v2/
+checkpoints_fixed/
+*.pt.bak
+*_checkpoint.pt
+best_model.pt
+best_checkpoint.pt
+checkpoint_epoch_*.pt
+
+# ----------------------------
+# Attention visualization outputs
+# ----------------------------
+attention_viz/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# ----------------------------
+# Tokenizer cache files
+# ----------------------------
+tokenizer_en_v2/
+tokenizer_fr_v2/
+tokenizer_en/
+tokenizer_fr/
+*tokenizer.json
+*tokenizer.vocab
+
+# ----------------------------
+# Dataset cache and arrow files
+# ----------------------------
+.arrow/
+cache/
+.cache/
+*.arrow
+*.arrow_*
+dataset.arrow
+cache-*.arrow
+dataset_info.json
+state.json
+datasets/
+.huggingface/
+
+# ----------------------------
+# Log files
+# ----------------------------
+*.log
+*.out
+*.err
+logs/
+log/
+wandb/
+mlruns/
+
+# ----------------------------
+# Data files (if you want to exclude raw data)
+# ----------------------------
+*.txt
+*.tsv
+*.csv
+*.conll
+*.conllu
+*.jsonl
+parallel_en_fr_corpus/
+data/
+*.zip
+*.tar
+*.gz
+*.7z
+
+# ----------------------------
+# Environment files
+# ----------------------------
+.env
+.venv
+.envrc
+requirements.txt
+requirements-dev.txt
+Pipfile
+Pipfile.lock
+poetry.lock
+pyproject.toml
+
+# ----------------------------
+# Testing and coverage
+# ----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.tox/*
+coverage.xml
+*.cover
+.hypothesis/
+
+# ----------------------------
+# Debugging and profiling
+# ----------------------------
+*.prof
+*.lprof
+*.perf
+debug/
+temp/
+
+# ----------------------------
+# OS specific
+# ----------------------------
+.directory
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+.*.swp
+.*.swo
+
+# ----------------------------
+# macOS specific
+# ----------------------------
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+*.dll
+*.exe
+
+# ----------------------------
+# Linux specific
+# ----------------------------
+*~
+*.old
+*.pid
+*.seed
+*.pid.lock
+
+# ----------------------------
+# PyTorch specific
+# ----------------------------
+*.t7
+*.th
+*.torch
+*.torchscript
+*.onnx
+
+# ----------------------------
+# MyPy / Type checking
+# ----------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ----------------------------
+# Backups and temp files
+# ----------------------------
+*.backup
+*.tmp
+*.temp
+*.cache
+*.cached
+*.bak
+
+# ----------------------------
+# Performance profiling
+# ----------------------------
+*.heapprof
+*.cpuprofile
+*.json.tmp
+
+# ----------------------------
+# NLTK data (if downloaded)
+# ----------------------------
+nltk_data/
+punkt/
+tokenizers/
+corpora/
+
+# ----------------------------
+# Large model artifacts (if any)
+# ----------------------------
+*.pth.tar
+*.pth.tar.*
+*.mar
+*.pt.tar
